@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using AtmWinForm;
 using ClassLibrary1;
 
 namespace AtmConsole
@@ -52,10 +53,15 @@ namespace AtmConsole
 
         static void InitializeBank()
         {
-            bank.AddAccount(new Account("1111-2222-3333-4444", "Павло Вахнюк", "1234", 5000));
-            bank.AddAccount(new Account("2222-3333-4444-5555", "Петро Петренко", "0000", 1500));
+            bank = new Bank(BankData.BankName);
+            atm = BankData.InitialAtm;
+
+            foreach (var acc in BankData.InitialAccounts)
+                bank.AddAccount(acc);
+
             bank.AddAtm(atm);
         }
+
 
         static void DoAuth()
         {

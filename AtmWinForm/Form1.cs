@@ -19,14 +19,17 @@ namespace AtmWinForm
             Text = "ATM - Вікно банкомату";
             Size = new Size(500, 320);
 
-            _bank = new Bank("PashaBank");
-            _atm = new AutomatedTellerMachine("ATM-001", "Main St. 1", 10000m);
+            _bank = new Bank(BankData.BankName);
+            _atm = BankData.InitialAtm;
 
-            _bank.AddAccount(new Account("1111-2222-3333-4444", "Павло Вахнюк", "1234", 5000));
-            _bank.AddAccount(new Account("2222-3333-4444-5555", "Петро Петренко", "0000", 1500));
+            foreach (var acc in BankData.InitialAccounts)
+            {
+                _bank.AddAccount(acc);
+            }
             _bank.AddAtm(_atm);
 
             _service = new AtmService(_bank, _atm);
+
 
             _service.AuthPerformed += (s, e) => MessageBox.Show(e.Message, "Аутентифікація");
             _service.BalanceChecked += (s, e) => MessageBox.Show($"Баланс: {e.Balance:C}", "Баланс");
