@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{DCC0FE5C-0DE4-4A6F-9A5A-6F9AAF4BA1FB}|AtmWinForm\\AtmWinForm.csproj|solutionrelative:atmwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DCC0FE5C-0DE4-4A6F-9A5A-6F9AAF4BA1FB}|AtmWinForm\\AtmWinForm.csproj|C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\atmwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCC0FE5C-0DE4-4A6F-9A5A-6F9AAF4BA1FB}|AtmWinForm\\AtmWinForm.csproj|solutionrelative:atmwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0EE4B266-4CE2-48EB-B5C4-8F936163FAC2}|AtmConsole\\AtmConsole.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\dotnet\\visual\\lab2\\atmconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EE4B266-4CE2-48EB-B5C4-8F936163FAC2}|AtmConsole\\AtmConsole.csproj|solutionrelative:atmconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC0FE5C-0DE4-4A6F-9A5A-6F9AAF4BA1FB}|AtmWinForm\\AtmWinForm.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\dotnet\\visual\\lab2\\atmwinform\\atmwinform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCC0FE5C-0DE4-4A6F-9A5A-6F9AAF4BA1FB}|AtmWinForm\\AtmWinForm.csproj|solutionrelative:atmwinform\\atmwinform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\dotnet\\visual\\lab2\\classlibrary1\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\dotnet\\visual\\lab2\\classlibrary1\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\dotnet\\visual\\lab2\\classlibrary1\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\dotnet\\visual\\lab2\\classlibrary1\\atmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\atmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\dotnet\\visual\\lab2\\classlibrary1\\atmevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\atmevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCC0FE5C-0DE4-4A6F-9A5A-6F9AAF4BA1FB}|AtmWinForm\\AtmWinForm.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\dotnet\\visual\\lab2\\atmwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DCC0FE5C-0DE4-4A6F-9A5A-6F9AAF4BA1FB}|AtmWinForm\\AtmWinForm.csproj|solutionrelative:atmwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\dotnet\\visual\\lab2\\classlibrary1\\atmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10BEC74-C7D4-4733-9E1F-DAE22E21F0B0}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\atmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,21 +46,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\AtmConsole\\Program.cs",
               "RelativeDocumentMoniker": "AtmConsole\\Program.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\AtmConsole\\Program.cs",
               "RelativeToolTip": "AtmConsole\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAqwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T11:20:03.444Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AtmWinForm.csproj",
+              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\AtmWinForm\\AtmWinForm.csproj",
+              "RelativeDocumentMoniker": "AtmWinForm\\AtmWinForm.csproj",
+              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\AtmWinForm\\AtmWinForm.csproj",
+              "RelativeToolTip": "AtmWinForm\\AtmWinForm.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-10T18:17:14.035Z"
             },
             {
               "$type": "Document",
@@ -66,14 +81,14 @@
               "RelativeDocumentMoniker": "AtmWinForm\\Form1.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\AtmWinForm\\Form1.cs",
               "RelativeToolTip": "AtmWinForm\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAG4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T11:56:11.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\AtmWinForm\\Form1.cs",
               "RelativeDocumentMoniker": "AtmWinForm\\Form1.cs",
@@ -85,55 +100,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AtmService.cs",
               "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\ClassLibrary1\\AtmService.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\AtmService.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\ClassLibrary1\\AtmService.cs",
               "RelativeToolTip": "ClassLibrary1\\AtmService.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAswFQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T11:18:41.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T11:18:41.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AtmEvents.cs",
               "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\ClassLibrary1\\AtmEvents.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\AtmEvents.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\ClassLibrary1\\AtmEvents.cs",
               "RelativeToolTip": "ClassLibrary1\\AtmEvents.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwCQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA4wDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T11:15:16.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T11:15:16.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Bank.cs",
               "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\ClassLibrary1\\Bank.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Bank.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\ClassLibrary1\\Bank.cs",
               "RelativeToolTip": "ClassLibrary1\\Bank.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T11:02:21.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T11:02:21.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\ClassLibrary1\\Account.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Account.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\ClassLibrary1\\Account.cs",
               "RelativeToolTip": "ClassLibrary1\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T10:34:18.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T10:34:18.664Z"
             },
             {
               "$type": "Document",
@@ -143,10 +154,9 @@
               "RelativeDocumentMoniker": "ClassLibrary1\\AutomatedTellerMachine.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\DOTNET\\VISUAL\\lab2\\ClassLibrary1\\AutomatedTellerMachine.cs",
               "RelativeToolTip": "ClassLibrary1\\AutomatedTellerMachine.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T10:32:33.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T10:32:33.784Z"
             }
           ]
         }

@@ -81,22 +81,20 @@ namespace AtmWinForm
             txtAmount = new TextBox { Location = new Point(240, 98), Width = 120 };
 
             btnWithdraw = new Button { Text = "Зняти", Location = new Point(20, 140), Width = 140 };
-            btnWithdraw.Click += (s, e) => {
-                if (!CheckAuth()) return;
-                if (decimal.TryParse(txtAmount.Text, out var amt))
+            btnWithdraw.Click += (s, e) =>
+            {
+                if (TryGetAmount(out var amt))
                     _service.Withdraw(_authenticatedCard, amt);
-                else MessageBox.Show("Некоректна сума");
             };
             btnWithdraw.BackColor = buttonBack;
             btnWithdraw.ForeColor = buttonFore;
             btnWithdraw.Font = buttonFont;
 
             btnDeposit = new Button { Text = "Зарахувати", Location = new Point(180, 140), Width = 140 };
-            btnDeposit.Click += (s, e) => {
-                if (!CheckAuth()) return;
-                if (decimal.TryParse(txtAmount.Text, out var amt))
+            btnDeposit.Click += (s, e) =>
+            {
+                if (TryGetAmount(out var amt))
                     _service.Deposit(_authenticatedCard, amt);
-                else MessageBox.Show("Некоректна сума");
             };
             btnDeposit.BackColor = buttonBack;
             btnDeposit.ForeColor = buttonFore;
@@ -106,11 +104,10 @@ namespace AtmWinForm
             txtToCard = new TextBox { Location = new Point(220, 188), Width = 180 };
 
             btnTransfer = new Button { Text = "Переказ", Location = new Point(20, 220), Width = 180 };
-            btnTransfer.Click += (s, e) => {
-                if (!CheckAuth()) return;
-                if (decimal.TryParse(txtAmount.Text, out var amt))
+            btnTransfer.Click += (s, e) =>
+            {
+                if (TryGetAmount(out var amt))
                     _service.Transfer(_authenticatedCard, txtToCard.Text.Trim(), amt);
-                else MessageBox.Show("Некоректна сума");
             };
             btnTransfer.BackColor = buttonBack;
             btnTransfer.ForeColor = buttonFore;
@@ -144,7 +141,23 @@ namespace AtmWinForm
                 lblStatus.ForeColor = Color.Red;
             }
         }
+        // Новий метод для зчитування та перевірки суми
+        private bool TryGetAmount(out decimal amount)
+        {
+            if (!CheckAuth())
+            {
+                amount = 0;
+                return false;
+            }
 
+            if (!decimal.TryParse(txtAmount.Text, out amount) || amount <= 0)
+            {
+                MessageBox.Show("Некоректна сума", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            return true;
+        }
         private bool CheckAuth()
         {
             if (string.IsNullOrEmpty(_authenticatedCard))
