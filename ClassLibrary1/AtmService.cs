@@ -45,14 +45,38 @@ namespace ClassLibrary1
                 WithdrawPerformed?.Invoke(this, new OperationEventArgs(cardNumber, false, "Рахунок не знайдено"));
                 return;
             }
-            if (amount <= 0 || !acc.Withdraw(amount) || !_atm.Dispense(amount))
+
+            if (!_atm.CanDispense(amount))
             {
-                acc.Deposit(amount);
-                WithdrawPerformed?.Invoke(this, new OperationEventArgs(cardNumber, false, "Помилка операції"));
+                WithdrawPerformed?.Invoke(this, new OperationEventArgs(cardNumber, false, "Банкомат не може видати суму"));
                 return;
             }
+
+            if (!acc.Withdraw(amount))
+            {
+                WithdrawPerformed?.Invoke(this, new OperationEventArgs(cardNumber, false, "Недостатньо коштів на рахунку"));
+                return;
+            }
+
+            if (!_atm.Dispense(amount))
+            {
+                // Банкомат не видав гроші, повертаємо на рахунок
+                if (!acc.Deposit(amount))
+                {
+                    // Критична помилка: гроші не вдалося повернути
+                    WithdrawPerformed?.Invoke(this, new OperationEventArgs(cardNumber, false,
+                        "Критична помилка: гроші не вдалося повернути на рахунок"));
+                }
+                else
+                {
+                    WithdrawPerformed?.Invoke(this, new OperationEventArgs(cardNumber, false, "Банкомат не видав суму, гроші повернено"));
+                }
+                return;
+            }
+
             WithdrawPerformed?.Invoke(this, new OperationEventArgs(cardNumber, true, $"Видача {amount:C} успішна"));
         }
+
 
         public void Deposit(string cardNumber, decimal amount)
         {
